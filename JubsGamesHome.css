@@ -26,6 +26,7 @@ button {
 
 h1 {
 	font-size: 40px;
+	font-family: 'Oswald', sans-serif;
 }
 
 @media (min-width: 992px) {
