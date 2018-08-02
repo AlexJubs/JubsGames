@@ -1,0 +1,68 @@
+* {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+body {
+        text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.logo {
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #28a745!important;
+    margin: auto;
+}
+
+canvas {
+	color: black;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+}
+
+#tetris {
+  transform: translate(-50%, -50%);
+}
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.container {
+	color: black;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
