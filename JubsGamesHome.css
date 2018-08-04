@@ -1,10 +1,18 @@
-/*!
- * Start Bootstrap - 2 Col Portfolio (https://startbootstrap.com/template-overviews/2-col-portfolio)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-2-col-portfolio/blob/master/LICENSE)
- */
+ *{
+  font-family: 'Oswald', sans-serif;
+ }
+
 body {
   padding-top: 54px;
+  text-align: center;
+}
+
+div {
+  overflow-x:auto;
+  overflow-y:auto;
+}
+
+.aboutMe {
   text-align: center;
 }
 
@@ -26,7 +34,12 @@ button {
 
 h1 {
 	font-size: 40px;
-	font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -53,7 +66,3 @@ h1 {
 .pagination {
   margin-bottom: 30px;
 }
-
- *{
-	font-family: 'Oswald', sans-serif;
- }
